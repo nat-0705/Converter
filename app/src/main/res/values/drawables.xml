@@ -1,0 +1,8 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_angle" type="drawable">@drawable/angle</item>
+    <item name="ic_menu_area" type="drawable">@drawable/area</item>
+    <item name="ic_menu_length" type="drawable">@drawable/length</item>
+    <item name="ic_menu_number" type="drawable">@drawable/number</item>
+    <item name="ic_menu_temperature" type="drawable">@drawable/temperature</item>
+    <item name="ic_menu_weight" type="drawable">@drawable/weight</item>
+</resources>

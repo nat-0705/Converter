@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_angle">
+
+    <fragment
+        android:id="@+id/nav_angle"
+        android:name="com.example.converter.ui.AngleFragment"
+        android:label="@string/menu_angle"
+        tools:layout="@layout/fragment_temperature" />
+
+    <fragment
+        android:id="@+id/nav_area"
+        android:name="com.example.converter.ui.AreaFragment"
+        android:label="@string/menu_area"
+        tools:layout="@layout/fragment_length" />
+
+    <fragment
+        android:id="@+id/nav_length"
+        android:name="com.example.converter.ui.LengthFragment"
+        android:label="@string/menu_length"
+        tools:layout="@layout/fragment_weight" />
+
+    <fragment
+        android:id="@+id/nav_number"
+        android:name="com.example.converter.ui.NumberSystemFragment"
+        android:label="@string/menu_number"
+        tools:layout="@layout/fragment_area" />
+
+    <fragment
+        android:id="@+id/nav_temperature"
+        android:name="com.example.converter.ui.TemperatureFragment"
+        android:label="@string/menu_temperature"
+        tools:layout="@layout/fragment_angle" />
+
+    <fragment
+        android:id="@+id/nav_weight"
+        android:name="com.example.converter.ui.WeightFragment"
+        android:label="@string/menu_weight"
+        tools:layout="@layout/fragment_number_system" />
+</navigation>

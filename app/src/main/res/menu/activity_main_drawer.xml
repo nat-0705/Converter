@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_angle"
+        android:icon="@drawable/angle"
+        android:title="@string/menu_angle" />
+    <item
+        android:id="@+id/nav_area"
+        android:icon="@drawable/area"
+        android:title="@string/menu_area" />
+    <item
+        android:id="@+id/nav_length"
+        android:icon="@drawable/length"
+        android:title="@string/menu_length" />
+    <item
+        android:id="@+id/nav_number"
+        android:icon="@drawable/number"
+        android:title="@string/menu_number" />
+
+    <item
+        android:id="@+id/nav_temperature"
+        android:icon="@drawable/temperature"
+        android:title="@string/menu_temperature" />
+    <item
+        android:id="@+id/nav_weight"
+        android:icon="@drawable/weight"
+        android:title="@string/menu_weight" />
+
+</menu>
